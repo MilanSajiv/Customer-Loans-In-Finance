@@ -2,11 +2,10 @@
 
 ## Table of Contents
 
-- [Description]
-- [Installation]
-- [Usage]
-- [File Structure]
-- [License]
+- Description
+- Installation
+- Usage
+- License
 
 ## Description
 
