@@ -2,7 +2,6 @@ import pandas as pd
 from scipy import stats
 from df_info import DataFrameInfo
 
-
 class DataTransformation:
     def __init__(self, df):
         self.df = df
