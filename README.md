@@ -4,20 +4,15 @@
 
 - Description
 - Installation
-- Usage
 - License
 
 ## Description
 
 This project aims to extract loan payments data from an AWS RDS database and save it locally for exploratory data analysis (EDA) and further analysis tasks. The primary goal is to facilitate easy access to loan payments data for analysis, and to learn about data extraction, transformation, and loading (ETL) processes.
 
-### What It Does
-
 - Connects to an AWS RDS database
 - Extracts data from a specified table
 - Saves the extracted data to a local CSV file
-
-### Aim of the Project
 
 - To streamline the process of data extraction from a remote database
 - To practice working with databases, data extraction, and data storage
@@ -30,3 +25,6 @@ To run this project, you need to have Python installed on your machine along wit
 - pandas
 - sqlalchemy
 - PyYAML
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
