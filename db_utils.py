@@ -33,7 +33,7 @@ class RDSDatabaseConnector:
         return df
 
 if __name__ == '__main__':
-    connector = RDSDatabaseConnector('main\credentials.yaml')
+    connector = RDSDatabaseConnector('credentials.yaml')
     connector.initialise_engine()
     data = connector.extract_data('loan_payments')  
     connector.save_to_csv(data, 'data.csv')
