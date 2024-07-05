@@ -9,7 +9,6 @@ class SkewTransform:
         skewness = self.df[numerical_columns].apply(lambda n: n.skew())
         skewed_columns = skewness[abs(skewness) > threshold].index.tolist()
         return skewed_columns
-    
     def transform_log(self, threshold=2):
         skewed_columns = self.identify_skewed_columns(threshold)
         for column in skewed_columns: 
