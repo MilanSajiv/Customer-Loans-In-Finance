@@ -16,7 +16,6 @@ class DataFrameInfo:
             print(self.df[column].std(numeric_only=True))
         else:
             print(self.df.std())
-
     def get_mean(self, column=None):
         if column != None:
             print(self.df[column].mean(numeric_only=True))
@@ -39,7 +38,6 @@ class DataFrameInfo:
 class Plotter:
     def __init__(self, df):
         self.df = df
-
     def histogram(self, column, bins):
         plt.hist(self.df[column], bins=bins)
         plt.show()
